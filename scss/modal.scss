@@ -1,0 +1,118 @@
+/* ===== highlights modal ===== */
+
+#state-services-map {
+  .modal-backdrop {
+    @media only screen and (min-width: 768px) {
+      position: absolute;
+      height: 100%;
+    }
+  }
+}
+
+#ss-map__modal {
+  @media only screen and (min-width: 768px) {
+    position: absolute;
+    height: 100%;
+  }
+  
+  .modal-xl {
+    max-width: unset;
+    
+    @media only screen and (min-width: 1200px) {
+      max-width: 1320px;
+    }
+  }
+
+  .modal-dialog {
+    margin: 0 auto;
+    padding: 0.5rem;
+
+    @media only screen and (min-width: 768px) {
+      height: 100%;
+    }
+
+    .modal-content {
+      height: 100%;
+      border-radius: 20px;
+      overflow: hidden;
+
+      .modal-title {
+        font-size: 24px;
+
+        @media only screen and (min-width: 768px) {
+          font-size: 32px;
+        }
+      }
+
+      .modal-header {
+        border: 0;
+      }
+
+      .modal-body {
+        padding: 0;
+
+        @media only screen and (min-width: 768px) {
+          overflow-y: auto;
+        }
+      }
+
+      .modal-footer {
+        justify-content: space-between;
+
+        @media only screen and (min-width: 768px) {
+          display: none;
+        }
+      }
+
+      .modal-footer,
+      .modal-header {
+        background-color: var(--color-primary);
+        color: #ffffff;
+        font-family: var(--font-heading);
+        text-transform: uppercase;
+      }
+
+      .modal-actions {
+        display: flex;
+        gap: 10px;
+
+        .btn--modal-action {
+          border-radius: 100%;
+          width: 36px;
+          height: 36px;
+          background-color: #ffffff;
+          border-color: #ffffff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          @media only screen and (min-width: 768px) {
+            width: 50px;
+            height: 50px;
+          }
+
+          &:focus {
+            box-shadow: 0 0 0 0.25rem var(--color-btn-action) 40;
+          }
+
+          i {
+            color: var(--color-btn-action);
+            font-size: 20px;
+
+            @media only screen and (min-width: 768px) {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.map-modal-open {
+  overflow: hidden;
+
+  @media only screen and (min-width: 768px) {
+    overflow: auto;
+  }
+}

@@ -1,0 +1,142 @@
+/* ===== maps and pins ===== */
+
+.ss-map__maps {
+  display: none;
+
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+
+  .ss-map__graphic {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.ss-map__graphic--mobile {
+  position: relative;
+  width: 100%;
+}
+
+.ss-map__overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ss-map__pin {
+  position: absolute;
+  background-color: transparent;
+  border-radius: 100%;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 0;
+  padding: 0;
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    border-radius: 100%;
+    z-index: -1;
+  }
+
+  i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    color: var(--color-map-pin);
+    pointer-events: none;
+  }
+
+  &:hover {
+    animation: pulse 2.5s linear infinite;
+    -webkit-animation: pulse 2.5s linear infinite;
+
+    &::before {
+      animation: sonar 2.5s linear infinite;
+      -webkit-animation: sonar 2.5s linear infinite;
+      box-shadow: 0px 0px 2px 2px #ffffff;
+    }
+  }
+}
+
+.pin--count::after {
+  content: attr(data-highlight-count);
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  height: 20px;
+  width: 20px;
+  background-color: var(--color-map-pin);
+  color: #ffffff;
+  border-radius: 100%;
+  font-size: 12px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+@-webkit-keyframes sonar {
+  0% {
+    -webkit-transform: scale(0);
+    opacity: 1;
+  }
+  70% {
+    -webkit-transform: scale(2.5);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sonar {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

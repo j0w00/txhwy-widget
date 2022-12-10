@@ -1,0 +1,77 @@
+/* ===== accordion ===== */
+
+#ss-map__tabs {
+  .accordion-body {
+    padding: 0;
+  }
+
+  .accordion-button {
+    color: #ffffff;
+    font-family: var(--font-heading);
+    font-size: 20px;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+
+  .accordion-button::after {
+    content: none;
+  }
+
+  .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem var(--map-color-light);
+  }
+
+  .accordion-collapse {
+    text-align: center;
+  }
+
+  .accordion-description {
+    background-color: var(--color-accordion-bg);
+    padding: 1rem 1.25rem;
+  }
+
+  .accordion-header {
+    position: relative;
+  }
+
+  .accordion-item {
+    border: none;
+    margin-bottom: 10px;
+
+    @media only screen and (min-width: 768px) {
+      margin-bottom: 28px;
+    }
+  }
+
+  .accordion-item:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .accordion-map {
+    padding: 25px 0;
+    display: block !important;
+
+    @media only screen and (min-width: 768px) {
+      display: none !important;
+    }
+  }
+
+  .accordion-open::before {
+    @media only screen and (min-width: 768px) {
+      content: "";
+      position: absolute;
+      right: 100%;
+      border-top: 28px solid transparent;
+      border-bottom: 28px solid transparent;
+      border-right: 30px solid var(--map-color);
+      margin-right: 5px;
+    }
+  }
+
+  .accordion-item:first-of-type .accordion-button,
+  .accordion-item:last-of-type,
+  .accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 0;
+  }
+}

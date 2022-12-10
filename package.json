@@ -1,0 +1,20 @@
+{
+  "name": "txhwy-widget",
+  "version": "1.0.0",
+  "description": "Texas Highway Construction Map",
+  "main": "index.html",
+  "scripts": {
+    "build-styles": "sass scss/index.scss style.min.css --style=compressed",
+    "watch-styles": "sass --watch scss/index.scss style.min.css --style=compressed",
+    "build-scripts": "terser ss-map.js -o ss-map.min.js --compress --module",
+    "build-all": "npm run build-styles & npm run build-scripts"
+  },
+  "author": "https://github.com/j0w00",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "http-server": "^14.1.1",
+    "sass": "^1.56.1",
+    "terser": "^5.16.0"
+  }
+}

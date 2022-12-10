@@ -1,0 +1,290 @@
+{
+  "sectionTitle": "Texas Highway Construction",
+  "maps": [
+    {
+      "id": "map1",
+      "title": "Phase 1",
+      "description": "Identify locations in our highway system that need improvement based on traffic, safety, and economic data. Locations are prioritized based on the number of people who will benefit from the project and the amount of congestion that will be alleviated.",
+      "color": "#225991",
+      "pins": [
+        {
+          "id": "pin1",
+          "title": "El Paso",
+          "coordinates": [0, 52]
+        },
+        {
+          "id": "pin2",
+          "title": "San Antonio",
+          "coordinates": [56, 30]
+        },
+        {
+          "id": "pin3",
+          "title": "Waco",
+          "coordinates": [68, 50]
+        }
+      ]
+    },
+    {
+      "id": "map2",
+      "title": "Phase 2",
+      "description": "Gather bids, select a contractor, and begin construction. Projects in this phase are funded by the Texas Department of Transportation (TxDOT). Duration of construction varies by project.",
+      "color": "#094785",
+      "pins": [
+        {
+          "id": "pin1",
+          "title": "Laredo",
+          "coordinates": [51, 14]
+        },
+        {
+          "id": "pin2",
+          "title": "Austin",
+          "coordinates": [66, 38]
+        },
+        {
+          "id": "pin3",
+          "title": "Houston",
+          "coordinates": [79, 28]
+        },
+        {
+          "id": "pin4",
+          "title": "Tyler",
+          "coordinates": [80, 56]
+        }
+      ]
+    },
+    {
+      "id": "map3",
+      "title": "Phase 3",
+      "description": "Quality assurance, final inspection, and project closeout. Once opened to traffic, additional data is collected to determine the effectiveness of the project.",
+      "color": "#07396a",
+      "pins": [
+        {
+          "id": "pin1",
+          "title": "McAllen",
+          "coordinates": [58, 3]
+        },
+        {
+          "id": "pin2",
+          "title": "Dallas",
+          "coordinates": [71, 59]
+        },
+        {
+          "id": "pin3",
+          "title": "Galveston",
+          "coordinates": [85, 30]
+        }
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Highway 62 and TX-375 Loop",
+      "subTitle": "Phase 1 - Started November 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID24000",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID26010",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map1+pin1",
+      "parentMap": "map1",
+      "parentPin": "pin1"
+    },
+    {
+      "title": "I-410 and I-10 Intersection",
+      "subTitle": "Phase 1 - Started December 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID16054",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map1+pin2",
+      "parentMap": "map1",
+      "parentPin": "pin2"
+    },
+    {
+      "title": "I-410 and I-35",
+      "subTitle": "Phase 1 - Started December 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID28030",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID44050",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID14002",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map1+pin2",
+      "parentMap": "map1",
+      "parentPin": "pin2"
+    },
+    {
+      "title": "M.L.K. Jr. Blvd. and Herring Avenue",
+      "subTitle": "Phase 1 - Started November 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID24333",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID46346",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map1+pin3",
+      "parentMap": "map1",
+      "parentPin": "pin3"
+    },
+    {
+      "title": "I-35 and W Del Mar Blvd",
+      "subTitle": "Phase 2 - Started June 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID25453",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID46546",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map2+pin1",
+      "parentMap": "map2",
+      "parentPin": "pin1"
+    },
+    {
+      "title": "183 and 35",
+      "subTitle": "Phase 2 - Started July 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID24555",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID64664",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID43553",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map2+pin2",
+      "parentMap": "map2",
+      "parentPin": "pin2"
+    },
+    {
+      "title": "610 and 59",
+      "subTitle": "Phase 2 - Started May 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID77545",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map2+pin3",
+      "parentMap": "map2",
+      "parentPin": "pin3"
+    },
+    {
+      "title": "Hwy 69 and Loop 323",
+      "subTitle": "Phase 2 - Started July 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID25532",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID46868",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map2+pin4",
+      "parentMap": "map2",
+      "parentPin": "pin4"
+    },
+    {
+      "title": "Highway 69c and I-2",
+      "subTitle": "Phase 3 - Started January 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID66543",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID65345",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID65655",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map3+pin1",
+      "parentMap": "map3",
+      "parentPin": "pin1"
+    },
+    {
+      "title": "I-35E and I-20",
+      "subTitle": "Phase 3 - Started March 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID66543",
+          "link": "https://www.google.com/"
+        },
+        {
+          "title": "BID65345",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map3+pin2",
+      "parentMap": "map3",
+      "parentPin": "pin2"
+    },
+    {
+      "title": "I-45 and 61st Street",
+      "subTitle": "Phase 3 - Started April 2022",
+      "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit egestas neque sed efficitur. Duis eget commodo quam. Nam lacinia id diam et varius. Donec finibus laoreet velit et ornare. Sed eget metus massa. Nam pretium ipsum magna, nec finibus ligula hendrerit quis. Vestibulum mi dolor, pulvinar vitae luctus at, dictum quis lectus.</p>",
+      "bids": [
+        {
+          "title": "BID34545",
+          "link": "https://www.google.com/"
+        }
+      ],
+      "website": "https://www.txdot.gov/",
+      "image": "https://via.placeholder.com/500.png?text=Image+for+map3+pin3",
+      "parentMap": "map3",
+      "parentPin": "pin3"
+    }
+  ]
+}
